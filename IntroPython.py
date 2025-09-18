@@ -62,7 +62,12 @@
 # Comentário de múltiplas linhas
 # """
 
-y = int(5)
-y:int=5
+# --Experimentos
 
-x,y,z = 1,2,3
+# y = int(5)
+# y:int = 5
+
+# Fruta = ["Banana", "Maca", "Laranja", "Uva", "Maracuja"]
+# for i in Fruta:
+#     print(i)
+
