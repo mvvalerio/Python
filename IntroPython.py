@@ -49,10 +49,20 @@
 # resultado = somar(5, 3)
 # print("Resultado =",resultado)
 
-# Livrarias 
-import math
+# --Livrarias 
 
-raiz = math.sqrt(16)
-print("Raiz quadrada de 16 é:", raiz)
-potencia = math.pow(2,3)
-print("2 elevado a 3 é:", potencia)
+# import math
+# 
+# raiz = math.sqrt(16)
+# print("Raiz quadrada de 16 é:", raiz)
+# potencia = math.pow(2,3)
+# print("2 elevado a 3 é:", potencia)
+
+# """
+# Comentário de múltiplas linhas
+# """
+
+y = int(5)
+y:int=5
+
+x,y,z = 1,2,3
