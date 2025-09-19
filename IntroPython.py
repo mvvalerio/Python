@@ -71,3 +71,9 @@
 # for i in Fruta:
 #     print(i)
 
+# idade = 18
+# anoNascimento = 2007
+# 
+# txt = f"Eu tenho {idade} anos e nasci em {anoNascimento}."
+# print(txt)
+
