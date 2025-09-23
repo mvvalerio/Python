@@ -77,3 +77,44 @@
 # txt = f"Eu tenho {idade} anos e nasci em {anoNascimento}."
 # print(txt)
 
+# --Listas
+
+# frutas = ["maçã", "banana", "laranja"] para uso de dificuldade dificil
+# frutas2 = frutas.copy()
+# frutasN = []
+# 
+# for i in frutas:
+#     if "n" in i:
+#         frutasN.append(i)
+# 
+# print(frutasN)
+
+# carros = ("BWM", "Audi", "Mercedes")  para uso de dificuldade moderada
+# (marca1, marca2, marca3) = carros
+# print (marca1)
+
+# for carro in carros:
+#     print(carro)
+
+# ----------------
+
+# mySet = {"maçã", "banana", "laranja"} para uso de dificuldade facilitada
+# 
+# for set in mySet:
+#     print(set)
+
+# ----------------
+
+# thisDict = {
+#     "brand": "Ford",
+#     "model": "Mustang",
+#     "year": 1964
+# }
+# 
+# for key in thisDict:
+#     print(thisDict[key]) # thisDict[key] - mostra o valor || key - mostra a chave
+
+# Lmbda
+
+# x = lambda a : a + 10
+# print(x(5))
