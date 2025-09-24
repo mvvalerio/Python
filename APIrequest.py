@@ -36,7 +36,8 @@ def obterIdArea():
 
 data = obterIdArea()
 if data:
-    print("Dados sísmicos obtidos:", data)
+    x = data
+    print(f"Dados sísmicos obtidos:\n {data}")
 else:
     print("Falha ao obter dados.")
 
