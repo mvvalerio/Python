@@ -42,10 +42,54 @@
 # x = lambda : [print(i) for i in range(11)]
 # x()
 
-dict = {
-    "carro" : "Citroen",
-    "modelo" : "c3",
-    "ano" : 2010
-}
+# dict = {
+#     "carro" : "Citroen",
+#     "modelo" : "c3",
+#     "ano" : 2010
+# }
+# 
+# print(dict)
 
-print(dict)
+# myTupl = (1,2,3,4)
+# def funTupl(myTupl):
+#     (a,b,c,d) = myTupl
+# 
+#     print(a,b,c,d)
+# 
+# funTupl(myTupl)
+
+# list:int = [1,2,3,4,5]
+# def funLi(list):
+#     return print(sum(list))
+# 
+# funLi(list)
+
+# dicti = {
+#     "marca": "Ford",
+#     "modelo": "Focus",
+#     "ano": "2008"
+# }
+# 
+# for key in dicti:
+#     print(f"{key} : {dicti[key]}")
+
+# set1:int = {1,2,3,4,5}
+# set2:int = {6,7,8,9,10}
+# 
+# def setFun(set1, set2):
+#     return print(set1.union(set2))
+# 
+# setFun(set1, set2)
+
+list = [[1,2,3],
+        [4,5,6],
+        [7,8,9]]
+x = 0
+
+
+def funLi(list):
+    for x in list:
+        for y in x:
+            print(f"{y:3}", end="")        
+
+funLi(list)
