@@ -81,15 +81,25 @@
 # 
 # setFun(set1, set2)
 
-list = [[1,2,3],
-        [4,5,6],
-        [7,8,9]]
-x = 0
+# list = [[1,2,3],
+#         [4,5,6],
+#         [7,8,9]]
+# x = 0
+# 
+# 
+# def funLi(list):
+#     for x in list:
+#         for y in x:
+#             print(f"{y:3}", end="")        
+# 
+# funLi(list) -- To Be Continued
 
+mySet1 = {1,2,3,4,5}
+mySet2 = set()
 
-def funLi(list):
-    for x in list:
-        for y in x:
-            print(f"{y:3}", end="")        
+def funSet(mySet1):
+    mySet2.update(mySet1)
+    mySet1.clear()
+    print(mySet2)
 
-funLi(list)
+funSet(mySet1)
