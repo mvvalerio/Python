@@ -94,12 +94,12 @@
 # 
 # funLi(list) -- To Be Continued
 
-mySet1 = {1,2,3,4,5}
-mySet2 = set()
-
-def funSet(mySet1):
-    mySet2.update(mySet1)
-    mySet1.clear()
-    print(mySet2)
-
-funSet(mySet1)
+# mySet1 = {1,2,3,4,5}
+# mySet2 = set()
+# 
+# def funSet(mySet1):
+#     mySet2.update(mySet1)
+#     mySet1.clear()
+#     print(mySet2)
+# 
+# funSet(mySet1)
