@@ -103,3 +103,37 @@
 #     print(mySet2)
 # 
 # funSet(mySet1)
+
+# class Carro:
+#     def __init__(self, marca, modelo): # init e o construtor da classe
+#         self.marca = marca  # atributos
+#         self.modelo = modelo
+#         print("O construtor foi inicializado")
+# 
+#     def mostraMarca(self): # obrigatório passar o self, métodos
+#         print(self.marca)
+# 
+#     def mostraModelo(self):
+#         print(self.modelo)
+# 
+# c1 = Carro("Ford", "Mustang")
+# 
+# c1.mostraMarca()
+# c1.mostraModelo()
+
+class Person:
+    def __init__(self, fname, lname):
+        self.fname = fname
+        self.lname = lname
+
+    def printname(self):
+        print(self.fname, self.lname)
+
+class Student(Person):
+    pass # passa os atributos e metodos que não foram usados
+    def __init__(self, fname, lname, password):
+        super().__init__(self, fname, lname) # super() vai buscar os metodos e atributos da classe superior
+        self.password = password
+        self.graduationyear = 2019
+
+x = Student("Mike", "Miguel", "123456789")
