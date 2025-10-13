@@ -117,4 +117,4 @@
 # Lmbda
 
 # x = lambda a : a + 10
-# print(x(5)) DAR COMMIT AO RESTO
+# print(x(5))
